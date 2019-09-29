@@ -1,0 +1,2 @@
+point	title	description	iconSize	iconOffset	icon
+25.7165208692478,-80.2793688365454	<a href="service.php?id=3309">TRAUMA TREATMENT PROGRAM<br/><small><i>by UNIVERSITY OF MIAMI - PSYCHOLOGICAL SERVICES CENTER (PSC)</i></small></a>	305-284-4265<br/>5665 Ponce De Leon Boulevard<br/>Miami, FL , 33146	25,25	-12,-25	resources/markerR.png
