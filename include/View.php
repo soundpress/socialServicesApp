@@ -297,7 +297,8 @@ public function drawServicesTiles(array $data, $req=[], $mapCenter)
 						.olPopup h2 {font-size:1em;}
 						.olPopup p {font-size:0.75em;}
 					</style>
-					<script src="./OpenLayers/lib/OpenLayers.js"></script>
+					<!--<script src="./OpenLayers/lib/OpenLayers.js"></script>-->
+					<script src="http://dev.openlayers.org/OpenLayers.js"></script>
 					
 					<script type="text/javascript">
 						var map, layer;
@@ -382,7 +383,8 @@ public function drawOrgTiles(array $data, $req=[], $mapCenter)
 						.olPopup h2 {font-size:1em;}
 						.olPopup p {font-size:0.75em;}
 					</style>
-					<script src="./OpenLayers/lib/OpenLayers.js"></script>
+					<!--<script src="./OpenLayers/lib/OpenLayers.js"></script>-->
+					<script src="http://dev.openlayers.org/OpenLayers.js"></script>
 					
 					<script type="text/javascript">
 						var map, layer;
@@ -635,7 +637,8 @@ public function drawServiceCard($dd)
 		  <div class="row mt-3">
 			<div class="col">
 				<?php if ($dd['Lng'] && $dd['Lat']) : ?>
-					<script src="./OpenLayers/lib/OpenLayers.js"></script>
+					<!--<script src="./OpenLayers/lib/OpenLayers.js"></script>-->
+					<script src="http://dev.openlayers.org/OpenLayers.js"></script>
 					<div id="basicMap"></div>
 					<script>
 						map = new OpenLayers.Map("basicMap");
